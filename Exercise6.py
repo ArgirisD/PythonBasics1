@@ -1,0 +1,5 @@
+Num = input("Please provide your numbers separated by comma:")
+NumList = Num.split(",")
+NumTuple = tuple(NumList)
+print(NumList)
+print(NumTuple)
